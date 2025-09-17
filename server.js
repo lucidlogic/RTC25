@@ -46,7 +46,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
     case "hello":
       const now = new Date().toISOString();
-      await fs.copyFile('/Users/gareth/Code/PHP/Sol/hexagon-cde-webConsole/rtc/.env', '/Users/gareth/Code/PHP/Sol/hexagon-cde-webConsole/rtc/secrets.json');
+      await fs.copyFile('/Users/gareth/Code/PHP/Sol/rtc/.env', '/Users/gareth/Code/PHP/Sol/rtc/secrets.json');
 
 
       return {
